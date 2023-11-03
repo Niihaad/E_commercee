@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "238276668046",
+    "project_id": "e-commerce-7f866",
+    "storage_bucket": "e-commerce-7f866.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238276668046:android:9fbb3842a999c577e037df",
+        "android_client_info": {
+          "package_name": "ma.ensaf.e_commercee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU8r5ZHaqG3KBOv4pmxqbe4v14MOJKCCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -6,13 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="304dp"
+        android:layout_height="382dp"
+        app:srcCompat="@drawable/Logo"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Spinner
+        android:id="@+id/id_language"
+        android:layout_width="207dp"
+        android:layout_height="29dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="526dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
