@@ -4,21 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="304dp"
-        android:layout_height="382dp"
-        app:srcCompat="@drawable/Logo"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="110dp" />
+        android:layout_width="283dp"
+        android:layout_height="342dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
     <Spinner
         android:id="@+id/id_language"
-        android:layout_width="207dp"
-        android:layout_height="29dp"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="526dp" />
+        style="@style/SpinnerStyle"
+        android:layout_width="217dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="44dp"
+        android:entries="@array/langues_array"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:background="@drawable/spinner_background"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/suivant"
+        android:textColorLink="@color/pr_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_language"
+        app:layout_constraintVertical_bias="0.767" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

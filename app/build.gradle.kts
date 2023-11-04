@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "ma.ensaf.e_commercee"
-    compileSdk = 33
+    compileSdk = 34 // Modification de la version du SDK de compilation
 
     defaultConfig {
         applicationId = "ma.ensaf.e_commercee"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34// Vous pouvez mettre à jour targetSdk si nécessaire
         versionCode = 1
         versionName = "1.0"
 
@@ -37,7 +37,6 @@ android {
 }
 
 dependencies {
-
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
