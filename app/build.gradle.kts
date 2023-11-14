@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "ma.ensaf.e_commercee"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "ma.ensaf.e_commercee"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">E_commercee</string>
+    <string name="QUICKSHIP">QUICKSHIP</string>
+    <string name="best">Des best-sellers de l\'automne</string>
+    <string name="promotion">JUSQU\'AU 50%</string>
+
 </resources>
