@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">E_commercee</string>
+    <string name="app_name">pageCaftan</string>
     <string name="QUICKSHIP">QUICKSHIP</string>
     <string name="best">Des best-sellers de l\'automne</string>
-    <string name="promotion">JUSQU\'AU 50%</string>
-
+    <string name="promotion">JUSQU\'AU -50%</string>
+    <string name="traditions">Our traditions</string>
+    <string name="phrase">Tradition et style, tout dans la paume de votre main</string>
+    <string name="phrase1">les plus populaires sont achetés maintenant</string>
+    <string name="phrase2"> Nouveautés de semaines  Profiter de nos produits</string>
+    <string name="Madame">Pour vous Madame ...</string>
 </resources>
