@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/tint"
+            android:fontFamily="cursive"
+            android:text="@string/Authentification"
+            android:textAlignment="center"
+            android:textColor="@color/pr_color"
+            android:textDirection="rtl"
+            android:textIsSelectable="false"
+            android:textSize="34sp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:endIconMode="clear_text"
+                app:startIconDrawable="@drawable/baseline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="text|textEmailAddress" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:endIconMode="password_toggle"
+                    app:startIconDrawable="@drawable/baseline_lock_24">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/pwd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/Valider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="@color/btn"
+            android:fontFamily="sans-serif"
+            style="@style/SpinnerStyle"
+            android:text="@string/login"
+            app:strokeColor="@color/tint" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="50dp"
+            android:visibility="gone"
+            android:id="@+id/lin2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:text="Remove User"
+                android:textColor="@color/btn"
+                ></TextView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/remove_User"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:clickable="true"
+                android:contentDescription="@string/add"
+                android:focusable="true"
+                app:shapeAppearanceOverlay="@style/CircularShape"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:id="@+id/lin1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:text="Add User        "
+                android:textColor="@color/btn"
+                ></TextView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/add_User"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:clickable="true"
+                android:contentDescription="@string/add"
+                android:focusable="true"
+                app:shapeAppearanceOverlay="@style/CircularShape" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="9dp"
+            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="205dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="@string/pwd"
+                android:textColor="@color/pr_color" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

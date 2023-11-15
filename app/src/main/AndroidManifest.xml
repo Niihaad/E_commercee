@@ -13,8 +13,8 @@
         android:theme="@style/Theme.E_commercee"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity_caftan"
-            android:exported="false" />
+            android:name=".Login_Page"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
